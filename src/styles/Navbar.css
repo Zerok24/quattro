@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-container{
+    display: flex;
+    /* width: 360px; */
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+
+#logo > h1{
+    color: white;
+    padding: 10px;
+}
+
+#items{
+    display: flex;
+}
+
+#items > h2{
+    color: white;
+    /* border-left: solid white; */
+    /* margin-right: 20px ; */
+    /* margin-left: 20px ; */
+    padding: 10px;
+}
+
+#games{
+    border-right: solid white ;
+    
+}
+
+#courses{
+    border-right: solid white;
+
+}
+
+
+@media(max-width:400px ){
+
+}
+
